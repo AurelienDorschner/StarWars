@@ -1,0 +1,44 @@
+.box {
+    display: grid;
+    max-width: 10%;
+}
+.premiere {           /* Ombre Dark Vador */
+    grid-column: 3;              
+    grid-row: 6;            
+}
+.deux {              /* Ombre au pied */
+    grid-column: 2;            
+    grid-row: 6;   
+} 
+.trois {             /* Jambes d'Anakin */
+    grid-column: 1;          
+    grid-row: 6;   
+} 
+.quatre {           /* Ombre */
+    grid-column: 3;
+    grid-row: 5; 
+}  
+.cinq {             /* Bras d'Anakin */
+    grid-column: 2;           
+    grid-row: 5;         
+}         
+.sept {               /* Ombre de Dark Vador */
+    grid-column: 3;   
+    grid-row: 4;     
+} 
+.huit {              /* Epaule d'Anakin */
+    grid-column: 2;
+    grid-row: 4;
+}
+.neuf {               /* Anakin */
+    grid-column: 1;
+    grid-row: 4 / 6;
+}
+.dix {                   /* Tete Dark Vador */
+    grid-column: 2 / 4;  
+    grid-row: 3; 
+} 
+.douze {              /* Mur en haut à gauche */
+    grid-column: 1;             
+    grid-row: 3;
+}
